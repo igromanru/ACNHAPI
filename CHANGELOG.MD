@@ -1,3 +1,14 @@
+### 01/06/2020
+- Added an array containing the months when a critter is available.
+- Added an array containing the hours (24h format) when a critter is available.
+
+### 29/05/2020
+- Compressed the K.K. Album cover from 42mb down to 12mb (with minimal quality loss) to reduce bandwidth for end users.
+
+### 28/05/2020
+- Added a "catch-translation" object containing the translations of villager catch phrases.
+- Fix the species of Rocco.
+
 ### 27/05/2020
 - The documentation should now be a valid OpenAPI doc.
 - Fix file-name and URI for the dimetrodon torso.
