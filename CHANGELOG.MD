@@ -1,25 +1,46 @@
-## 20/07/2020
+### 03/08/2020
+- More changes to furniture.
+- Fixes to fossils image uri.
+- Switched villagers to new parser.
+- Add the `text-color` and `bubble-color` keys which give the hex value of a villager's speach bubble.
+- Add the saying, subtype and hobby of villagers.
+
+### 02/08/2020
+- See the status update in the README.
+- Fixed the formatting of the changelog.
+- Updated fossils, added part-of to every fossils following the strings found in the game files. Renamed plesio_body to plesio_torso to reflect the changes in game.
+
+### 31/07/2020
+- A few fixes related to bugs and fish.
+
+### 30/07/2020
+- 1.4.0 furnitures
+
+### 28/07/2020
+- Fix the location string for the spider.
+
+### 20/07/2020
 - Fix the shadow size for the koi and the carp.
 
-## 15/07/2020
+### 15/07/2020
 - Fix goliath beetle availability string.
 - Fix the time array for giant isopod
 - Fix the month array for gigas giant clam
 
-## 14/07/2020
+### 14/07/2020
 - Fix time array for goliath beetle.
 
-## 13/07/2020
+### 13/07/2020
 - Fix the month array for single month fish and bugs.
 
-## 06/07/2020
+### 06/07/2020
 - Added the museum description for arts.
 - Added Blather's facts for sea creatures.
 
-## 05/07/2020
+### 05/07/2020
 - Added sea creatures catch-phrase.
 
-## 04/07/2020
+### 04/07/2020
 - Added Sea Creatures endpoint
 - Updated furnitures for 1.3.0
 

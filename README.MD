@@ -1,12 +1,26 @@
 # ACNH API
 
-### Updated for 1.3.0 (Summer Update 1)
+## An Update on the project:
+
+As some of you may already know, this project didn't start with the goal of being a public API. I didn't expect this project to gain this much traction in such small timeframe. This project started before the ACNH Spreadsheet project started and became the main source of information about the game as it is now. I'm currently working on merging the work I did with the [translation sheet](https://bit.ly/acnh-translations) with the data on the spreadsheet to generate the dataset automatically without changing the current structure. 
+
+But what does it mean for you as a user?
+
+- The structure of the response and JSONs will remain the same, so you won't need to update your project.
+- This will make the API updated a lot faster than it's currently taking as I won't have to manually add entries after updating the translation sheet and extracting all the assets for the two sheets.
+- This will make it a lot easier for me to add new endpoints, like clothes and recipes, thus bringing more possibilities to your project.
+
+Sadly, this transition can't be done instantly but I expect it to be done within the next two weeks, perhaps as soon as next week end. On the day I publish this commit, a big part has already been done: all the furniture. The commits will have a lot of diff due to different formatting of the JSON but the structure will remain the same. These changes won't be added to API server until I finished updating all the current endpoints.
+
+If you have any questions regarding these changes or want to discuss it, feels free to contact me by either opening an issue, sending me a mail at admin@acnhapi.com or by messaging me on Discord (Alexis#8717).
+
+### Updated for 1.4.0 (Summer Update 2)
 
 ### Introduction:
 
 ACNH API is a **free RESTful API** for **furniture**, **critters**, **fossils**, **art**, **music** and **villagers** from Animal Crossing: New Horizons.
 
-This started for me as a little side project for me but ended up getting much attraction than I ever thought it would get (~1 400 000 requests per day).
+This started for me as a little side project for me but ended up getting much attraction than I ever thought it would get (~3 000 000 requests per day).
 
 The API is free and without authentification to make it easy for anyone to start developing on a subject they like.
 
@@ -19,7 +33,7 @@ See [CHANGELOG.MD](https://github.com/alexislours/ACNHAPI/blob/master/CHANGELOG.
 
 ### Usage:
 
-All the JSON data from this API is under MIT license, the images and music assets are the sole property of Nintendo.
+All the JSON data from this API is under CC BY 4.0 license, the images and music assets are the sole property of Nintendo.
 
 The data can be obtained as an object array instead of a nested JSON by doing requests on `https://acnhapi.com/v1a/` instead of `https://acnhapi.com/v1/`.
 
@@ -50,6 +64,7 @@ For keeping the project free and available to all:
 - [Dimillian (AC Helper)](https://github.com/Dimillian)
 - [Kuma](https://github.com/kuma)
 - [Nookipedia](https://nookipedia.com/wiki/Main_Page)
+- [@8bitclassroom](https://twitter.com/8bitclassroom)
 
 #### Disclaimer: 
 ACNH API is a fan made API/Website and claims no ownership of any intellectual property associated with Nintendo or Animal Crossing. All assets found on the site and the repository are the sole property of Nintendo and are only used for non-commercial and educational purpose.
